@@ -1,4 +1,4 @@
-const CACHE_NAME = "kumiai-links-v1";
+const CACHE_NAME = "kumiai-links-v2";
 const ASSETS = [
   "./",
   "./index.html",

@@ -28,10 +28,24 @@
         </div>
       </section>
 
+      <section id="install-section" class="install-section" aria-label="ホーム画面への追加">
+        <button id="install-button" class="install-button" type="button">
+          ホーム画面に追加する
+        </button>
+      </section>
+
       <footer class="app-footer">
         愛媛中央花き商業協同組合
       </footer>
     </main>
+
+    <dialog id="install-dialog" class="install-dialog" aria-labelledby="install-title">
+      <div class="dialog-content">
+        <h2 id="install-title">ホーム画面に追加</h2>
+        <div id="install-message" class="install-message"></div>
+        <button id="close-dialog" class="dialog-close" type="button">閉じる</button>
+      </div>
+    </dialog>
 
     <script src="app.js" defer></script>
   </body>
