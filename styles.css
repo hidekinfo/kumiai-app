@@ -34,7 +34,7 @@ body {
   inset: 0;
   z-index: 0;
   background:
-    linear-gradient(180deg, rgba(247, 250, 248, 0.58), rgba(247, 250, 248, 0.28) 44%, rgba(247, 250, 248, 0.52)),
+    linear-gradient(180deg, rgba(247, 250, 248, 0.28), rgba(247, 250, 248, 0.08) 44%, rgba(247, 250, 248, 0.22)),
     url("assets/appback.jpg") center center / cover no-repeat;
   pointer-events: none;
 }
@@ -74,7 +74,7 @@ h1 {
   font-size: clamp(31px, 8vw, 42px);
   line-height: 1.18;
   letter-spacing: 0;
-  text-shadow: 0 2px 12px rgba(255, 255, 255, 0.86);
+  text-shadow: 0 2px 14px rgba(255, 255, 255, 0.96);
 }
 
 .lead {
@@ -84,7 +84,7 @@ h1 {
   font-size: 19px;
   font-weight: 700;
   line-height: 1.55;
-  text-shadow: 0 2px 12px rgba(255, 255, 255, 0.86);
+  text-shadow: 0 2px 14px rgba(255, 255, 255, 0.96);
 }
 
 .link-section {
