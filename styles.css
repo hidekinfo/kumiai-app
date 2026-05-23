@@ -29,6 +29,29 @@ body {
   background: var(--bg);
 }
 
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+body::before {
+  z-index: -2;
+  background-image: url("assets/appback.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body::after {
+  z-index: -1;
+  background:
+    linear-gradient(180deg, rgba(247, 250, 248, 0.86), rgba(247, 250, 248, 0.62) 42%, rgba(247, 250, 248, 0.8)),
+    rgba(255, 255, 255, 0.18);
+}
+
 button,
 a {
   -webkit-tap-highlight-color: transparent;
@@ -53,6 +76,7 @@ a {
   width: min(100%, 286px);
   height: auto;
   margin: 0 auto 18px;
+  filter: drop-shadow(0 4px 14px rgba(255, 255, 255, 0.82));
 }
 
 h1 {
@@ -61,6 +85,7 @@ h1 {
   font-size: clamp(31px, 8vw, 42px);
   line-height: 1.18;
   letter-spacing: 0;
+  text-shadow: 0 2px 12px rgba(255, 255, 255, 0.86);
 }
 
 .lead {
@@ -70,6 +95,7 @@ h1 {
   font-size: 19px;
   font-weight: 700;
   line-height: 1.55;
+  text-shadow: 0 2px 12px rgba(255, 255, 255, 0.86);
 }
 
 .link-section {

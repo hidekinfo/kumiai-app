@@ -1,4 +1,4 @@
-const CACHE_NAME = "kumiai-links-v2";
+const CACHE_NAME = "kumiai-links-v4";
 const ASSETS = [
   "./",
   "./index.html",
@@ -6,10 +6,11 @@ const ASSETS = [
   "./app.js",
   "./links.json",
   "./manifest.json",
-  "./icons/icon.svg",
+  "./assets/appback.jpg",
   "./icons/icon-180.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
+  "./icons/appicon.png",
   "./icons/kakilogo.png"
 ];
 
