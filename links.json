@@ -1,0 +1,18 @@
+[
+  {
+    "label": "組合員へのお知らせ",
+    "url": "https://kakikumiai.com/osirase/"
+  },
+  {
+    "label": "行事予定",
+    "url": "https://kakikumiai.com/event/"
+  },
+  {
+    "label": "購入品クレーム送信（購買）",
+    "url": "https://kakikumiai.com/claim_koubai/"
+  },
+  {
+    "label": "購入品クレーム送信（切花・鉢物）",
+    "url": "https://kakikumiai.com/claim_kaki/"
+  }
+]

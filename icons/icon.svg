@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="組合員専用アプリ">
+  <rect width="512" height="512" rx="96" fill="#0f766e"/>
+  <circle cx="256" cy="170" r="62" fill="#ffffff"/>
+  <path d="M130 374c18-70 70-112 126-112s108 42 126 112c5 18-9 34-28 34H158c-19 0-33-16-28-34Z" fill="#ffffff"/>
+  <path d="M354 123h66v66" fill="none" stroke="#f2b84b" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M420 123 320 223" fill="none" stroke="#f2b84b" stroke-width="34" stroke-linecap="round"/>
+</svg>
